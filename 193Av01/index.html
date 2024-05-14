@@ -47,6 +47,14 @@
     <hr />
       <footer>
         <p>page by Michael Berbach</p>
-      </footer>          
+      </footer>
+      <script>
+        window.onload = function() {
+            if (document.cookie.includes("backgroundImageSet=true")) {
+                document.body.style.backgroundImage = "url('coolYippieHaha.png')";
+                document.body.style.backgroundSize = "cover";
+            }
+        }
+        </script>            
   </body>
 </html>
