@@ -1,0 +1,34 @@
+body {
+    font-size: 18px;
+    background-color: #e6f7ff;
+    text-align: center;
+  }
+  
+  .draw1 {
+    font-size: 14px;
+    color: #636363;
+    text-align: center;
+  }
+
+  .topBar {
+    background-color: #000;
+    height: 5px;
+}
+
+.navTabs {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navTabs a {
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navTabs a:hover {
+    background-color: #303030;
+}
